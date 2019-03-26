@@ -48,7 +48,7 @@ h3.subtopic{
     size: 32px;
     margin-left: 16%;
     letter-spacing: .2px;
-
+    text-align: justify
 }
 li.texts{
     font-family: 'Roboto Regular', sans-serif;
@@ -58,7 +58,7 @@ li.texts{
     margin-right: 17%;
     margin-bottom: 0px
 }
-blockquote.a{
+blockquote.a {
     background: #FE3D33;
     border-left: 10px solid #ffffff;
     margin: 1.5em 10px; 
@@ -71,6 +71,7 @@ blockquote.a{
     color: #ffffff;
     margin: 1rem auto 2rem;
     quotes: "\201C""\201D""\2018""\2019";
+    text-size-adjust: auto
 }
 blockquote.b{
     background: #4d4d4d;
