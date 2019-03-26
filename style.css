@@ -1,0 +1,126 @@
+body{
+    background-color: #232426;
+    font-family: 'Roboto Regular', sans-serif;
+    align-self: center;
+    background-repeat: no-repeat, repeat;
+    margin: 15px;
+    text-align: justify;
+}
+
+h1.title{
+    font-family: 'Roboto Bold', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 1.5px
+}
+h3.subtitle{
+    letter-spacing: .7px;
+    margin-top: 1.5px;
+    text-align: center;
+    font-family: 'Roboto Thin', sans-serif;
+    color: #ffffffc5
+}
+z.caps{
+    text-transform: uppercase;
+    font-family: 'Roboto Regular';
+    font-weight: lighter
+}
+b{
+    font-family: 'Roboto Bold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: unset;
+    text-transform: uppercase
+}
+h2.topic{
+    font-family: 'Roboto Regular', sans-serif;
+    color: white;
+    size: 36px;
+    margin-left: 15%;
+    letter-spacing: .4px;
+    text-transform: capitalize; 
+}
+h3.subtopic{
+    font-family: 'Roboto Light', sans-serif;
+    color: white;
+    font-weight: lighter;
+    size: 32px;
+    margin-left: 16%;
+    letter-spacing: .2px;
+
+}
+li.texts{
+    font-family: 'Roboto Regular', sans-serif;
+    color: white;
+    size: 24px;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 0px
+}
+blockquote.a{
+    background: #FE3D33;
+    border-left: 10px solid #ffffff;
+    margin: 1.5em 10px; 
+    border-radius: 3px;
+    position: relative; 
+    font-style: italic;
+    text-align: center;
+    padding: 1rem 1.2rem;
+    width: 50%;
+    color: #ffffff;
+    margin: 1rem auto 2rem;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote.b{
+    background: #4d4d4d;
+    border-left: 10px solid #ffffff;
+    margin: 1.5em 10px; 
+    border-radius: 3px;
+    position: relative; 
+    font-style: italic;
+    text-align: center;
+    padding: 1rem 1.2rem;
+    width: 71%;
+    color: #ffffff;
+    margin: 1rem auto 2rem;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote.a::before {
+    color: #ffffff;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+blockquote.a::after {
+    color: #ffffff;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.5em;
+
+
+}
+blockquote p {
+    display: inline;
+}
+
+
+.blink {
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: .8;
+    }
+}
